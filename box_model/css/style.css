@@ -1,0 +1,23 @@
+#main {
+    background-color: lavender;
+    padding: 30px;
+}
+#content {
+    background-color: #2c8ed3;
+    border: 5px solid rgb(0, 0, 0);
+    color: white;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+#content > div {
+    margin: 16px 0px;
+}
+
+#quote {
+    padding-left: 36px;
+}
+
+#quote_citation{
+    padding-left: 26px;
+}
