@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    padding: 36px;
+}
+nav {
+    padding: 40px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
