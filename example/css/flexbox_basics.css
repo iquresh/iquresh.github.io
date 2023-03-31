@@ -17,12 +17,12 @@
     flex-direction: column;
 }
 
-.right {
+right {
     justify-content: flex-end;
 }
-.left {
+.justify_content_left {
     justify-content: flex-start;
 }
-.center {
+.justify_content_center {
  justify-content: center;
 }

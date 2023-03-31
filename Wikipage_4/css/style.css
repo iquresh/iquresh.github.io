@@ -1,13 +1,23 @@
-body {
+.body {
     margin: 0px;
     font-family: sans-serif;
     padding: 36px;
+    margin: 0px;
 }
-nav {
-    padding: 40px;
+.flexbox {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 15px;
+    text-align: left;
+    flex-flow: row
 }
-
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border: solid darkgray;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(234, 233, 233);
 }
