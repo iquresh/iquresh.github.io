@@ -3,8 +3,8 @@ body {
 }
 nav {
     background-color: darkgreen;
+    padding: 24px;
 }
-
 ul {
     display: flex;
     justify-content: flex-end;
@@ -14,7 +14,7 @@ ul {
     margin: 0px auto;
 }
 ul li {
-    padding: 12px;
+    margin: 12px;
 }
 li a {
     color: white;
@@ -23,27 +23,6 @@ li a {
 }
 #home {
     margin-right: auto;
-}
-
-.dropdown_container {
-    position: relative;
-}
-
-.dropdown_menu {
-    background-color: lightgreen;
-    position: absolute;
-    flex-direction: column;
-    width: 100%;
-    left: 0px;
-    top: 100%;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.dropdown_container:hover .dropdown_menu {
-    opacity: 1;
-    visibility: visible;
-    top: 100%
 }
 
 @media screen and (min-width: 768px) {
