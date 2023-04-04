@@ -55,9 +55,3 @@ li a {
         flex-direction: column;
     }
 }
-
-@media screen and (min-width: 768px) {
-    ul {
-        flex-direction: column;
-    }
-}
