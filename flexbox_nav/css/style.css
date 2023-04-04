@@ -25,29 +25,3 @@ li a {
     margin-right: auto;
 }
 
-.dropdown_container {
-    position: relative;
-}
-
-.dropdown_menu {
-    background-color: lightgreen;
-    position: absolute;
-    flex-direction: column;
-    width: 100%;
-    left: 0px;
-    top: 100%;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.dropdown_container:hover .dropdown_menu {
-    opacity: 1;
-    visibility: visible;
-    top: 100%
-}
-
-@media screen and (min-width: 768px) {
-    ul {
-        flex-direction: column;
-    }
-}
