@@ -36,7 +36,7 @@ li a {
     flex-direction: column;
     width: 100%;
     left: 0px;
-    top: 100%;
+    top: 75%;
     opacity: 0;
     visibility: hidden;
 }
@@ -46,7 +46,7 @@ li a {
     flex-direction: column;
     width: 200%;
     left: 0px;
-    top: 100%;
+    top: 75%;
     opacity: 0;
     visibility: hidden;
 }
@@ -57,7 +57,7 @@ li a {
     flex-direction: column;
     width: 200%;
     left: 0px;
-    top: 100%;
+    top: 75%;
     opacity: 0;
     visibility: hidden;
 }
@@ -68,19 +68,34 @@ li a {
     padding: 20px;
 }
 
-.dropdown_container :hover .home {
+.dropdown_container:hover.home {
     opacity: 1;
     visibility: visible;
+    top: 100%
+    transition:
+    opacity 0.5s,
+    visibility 0.5s,
+    top 0.5s;
 }
 
-.dropdown_container :hover .about {
+.dropdown_container:hover.about {
     opacity: 1;
     visibility: visible;
+    top: 100%
+    transition:
+    opacity 0.5s,
+    visibility 0.5s,
+    top 0.5s;
 }
 
-.dropdown_container :hover .contact {
+.dropdown_container:hover.contact {
     opacity: 1;
     visibility: visible;
+    top: 100%
+    transition:
+    opacity 0.5s,
+    visibility 0.5s,
+    top 0.5s;
 }
 
 .image_gallery img {
