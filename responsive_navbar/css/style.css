@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 20px;
+}
+nav {
+    background-color: rgb(254, 229, 208);
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    list-style-type: none;
+    max-width: 800px;
+    margin: 0px auto;
+}
+ul li {
+    padding: 12px;
+}
+li a {
+    color: darkblue;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#home {
+    margin-right: auto;
+}
+
+.dropdown_container {
+    position: relative;
+}
+
+.contact {
+    background-color: aqua;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    left: 0px;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+.home {
+    background-color: aqua;
+    position: absolute;
+    flex-direction: column;
+    width: 200%;
+    left: 0px;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.about {
+    background-color: aqua;
+    position: absolute;
+    flex-direction: column;
+    width: 200%;
+    left: 0px;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown_container img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.dropdown_container :hover .home {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown_container :hover .about {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown_container :hover .contact {
+    opacity: 1;
+    visibility: visible;
+}
+
+.image_gallery img {
+    width: 200px;
+    height: 200px;
+}

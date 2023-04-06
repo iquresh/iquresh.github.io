@@ -1,0 +1,13 @@
+.side_by_side {
+    display: flex;
+    align-items: center;
+    margin:
+}
+
+.side_by_side img {
+    flex: 1;
+}
+
+.side_by_side p {
+    flex: 1;
+}

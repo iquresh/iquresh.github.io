@@ -1,0 +1,14 @@
+.card {
+    margin: 16px;
+    border: solid salmon;
+    background-color: white;
+    padding: 16px;
+}
+.image_container {
+    display: flex;
+    align-items: left;
+}
+
+.image_container img {
+    
+}
