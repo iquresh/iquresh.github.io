@@ -6,7 +6,6 @@
 }
 .image_container {
     display: flex;
-    align-items: left;
 }
 
 .image_container img {
