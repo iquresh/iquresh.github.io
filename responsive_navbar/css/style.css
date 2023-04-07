@@ -1,6 +1,86 @@
- 
-
 body {
+    margin: 0px;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(254, 229, 208);
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    list-style-type: none;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+nav > ul {
+    align-items: flex-end;
+} 
+
+ul li {
+    padding: 12px;
+}
+
+li a {
+    color: darkblue;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#home {
+    margin-right: auto;
+}
+
+li a {
+
+}
+
+
+.logo img {
+    width: 80px;
+    height: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+
+.logo {
+    top: 100%;
+}
+
+main {
+    width: 800px;
+    margin: 24px auto;
+}
+
+.side_by_side {
+    display: flex;
+    align-items: center;
+    margin: 48px 24px;
+}
+
+.side_by_side img {
+    flex: 2;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+.side_by_side p {
+    flex: 1;
+}
+.image_gallery img {
+    width: 200px;
+    height: 200px;
+}body {
     margin: 0px;
     padding: 20px;
 }
@@ -16,54 +96,67 @@ ul {
     max-width: 800px;
     margin: 0px auto;
 }
+
+nav > ul {
+    align-items: flex-end;
+} 
+
 ul li {
     padding: 12px;
 }
+
 li a {
     color: darkblue;
     text-decoration: none;
     font-family: sans-serif;
 }
+
 #home {
     margin-right: auto;
 }
-
-.dropdown_container {
-    position: relative;
-}
-
-.dropdown_menu {
-    background-color: aqua;
-    position: absolute;
-    flex-direction: column;
-    width: 200%;
-    left: 0px;
-    top: 75%;
-    opacity: 0;
-    transition:
-        opacity 0.5s,
-        visibility 0.5s,
-        top 0.5s;
+li a {
 
 }
 
 
 .logo img {
+    width: 80px;
+    height: 50px;
     width: 100px;
     height: 100px;
     padding: 20px;
 }
 
-.logo {
-    margin-right: auto;
-}
-
-.dropdown_container:hover .dropdown_menu {
-    opacity: 1;
-    visibility: visible;
+.logo li a {
     top: 100%;
 }
 
+main {
+    width: 800px;
+    margin: 24px auto;
+}
+
+.side_by_side {
+    display: flex;
+    align-items: center;
+    margin: 48px 24px;
+}
+
+.side_by_side img {
+    flex: 2;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+.side_by_side p {
+    flex: 1;
+}
 .image_gallery img {
     width: 200px;
     height: 200px;
