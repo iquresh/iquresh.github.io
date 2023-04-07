@@ -3,11 +3,15 @@
     border: solid salmon;
     background-color: white;
     padding: 16px;
-}
-.image_container {
     display: flex;
 }
+.image {
+    align-items: baseline;
+}
 
-.image_container img {
-    
+.image_1 {
+    align-items: center;
+}
+h1 {
+    text-align: center;
 }
