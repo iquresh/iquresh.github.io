@@ -3,16 +3,15 @@
     border: solid salmon;
     background-color: white;
     padding: 16px;
-}
-.image_container {
     display: flex;
 }
-
-.left {
-    float: right;
+.image {
+    align-items: baseline;
 }
 
+.image_1 {
+    align-items: center;
+}
 h1 {
     text-align: center;
-    padding: 20px;
 }
