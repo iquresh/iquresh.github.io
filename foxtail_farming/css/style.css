@@ -193,11 +193,13 @@ footer ul {
 h1 {
     font-family: 'Lobster', cursive;
     text-shadow: 4px 4px black;
+    font-size: 100px;
 }
 
 h4 {
     font-family: 'Montserrat', sans-serif;
     text-shadow: 1px 1px black;
+    font-size: 30px;
 }
 
 #hero a:hover {
@@ -216,10 +218,10 @@ h4 {
 
 #card {
     display: grid;
-    grid-template-columns: auto;
     border: solid black;
-    margin: 16px;
+    grid-template-rows: auto;
 }
+
 /****************************************************************************
   Gallery styles
 ****************************************************************************/
