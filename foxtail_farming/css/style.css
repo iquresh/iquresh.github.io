@@ -206,7 +206,20 @@ h4 {
 /****************************************************************************
   Card styles
 ****************************************************************************/
+.three_cards {
+    margin: 16px;
+    border: solid salmon;
+    background-color: white;
+    padding: 16px;
+    box-shadow: 4px 4px 8px 2px rgb(186, 184, 184);
+}
 
+#card {
+    display: grid;
+    grid-template-columns: auto;
+    border: solid black;
+    margin: 16px;
+}
 /****************************************************************************
   Gallery styles
 ****************************************************************************/
