@@ -11,7 +11,7 @@
         <h1>Contact us</h1>
         <h5>Got a question? We'd love to hear from you. Send us a message, and we'll respond as soon as possible.</h5>
         <main>
-            <form>
+            <form method="POST" action="https://getform.io/f/2fb3c443-bf13-45dc-9823-0525c29d17b2">
                 <div class="card">
                 <div>
                     <label>What can we help you with?</label>
@@ -26,13 +26,19 @@
                 </div>
 
                 <div>
-                    <label>Name</label>
-                    <input type="text" name="name">
+                    <label for="name">Name:</label>
+                    <input 
+                    required
+                    minlength="2"
+                    maxlength="10"
+                    type="text"
+                    id="name"
+                    name="name">
                 </div>
 
                 <div>
-                    <label>Email</label>
-                    <input type="email" name="email_address">
+                    <label for="email_id">Email:</label>
+                    <input type="email" id="email_id" name="email_address">
                 </div>
 
                 <div>
