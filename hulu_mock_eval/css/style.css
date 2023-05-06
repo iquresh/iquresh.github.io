@@ -1,0 +1,11 @@
+#gallery_6 {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+max-height; 1100px;
+}
+
+#gallery_6 img {
+width: 30%;
+margin: 12px;
+}
