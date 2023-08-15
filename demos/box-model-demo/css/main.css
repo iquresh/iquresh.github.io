@@ -1,0 +1,12 @@
+div {
+    border: 10px dashed orange;
+    margin: 24px 0px;
+    padding: 25px 36px;
+    background-color: lavender;
+}
+p {
+    background-color: pink;
+    margin: 30px 30px;
+    padding: 100px 25px;
+    border-radius: 40px;
+}
