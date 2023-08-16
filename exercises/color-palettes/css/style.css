@@ -1,7 +1,40 @@
-h3, h4 {
+h3, h4, h2 {
     text-align: center;
 }
 
 div {
     padding: 24px;
+}
+#p1-d1 {
+    background-color: #9c89b8;
+}
+#p1-d2 {
+    background-color: #f0a6ca;
+}
+#p1-d3 {
+    background-color: #efc3e6;
+}
+#p1-d4 {
+    background-color: #b8bedd;
+}
+#p2-d1 {
+    background-color: #023E8A;
+    color: white;
+}
+#p2-d2 {
+    background-color: #0077B6;
+    color: white;
+}
+#p2-d3 {
+    background-color: #0096C7;
+    color: white;
+}
+#p3-d1 {
+    background-color: #52B788;
+}
+#p3-d2 {
+    background-color: #74C69D;
+}
+#p3-d3 {
+    background-color: #D8F3DC;
 }
