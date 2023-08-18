@@ -1,0 +1,51 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+div {
+    display: inline-grid;
+}
+
+#license {
+    display: inline-grid;
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h4 {
+    display: inline-;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+
+#id-and-expiration {
+    display: inline-block;
+}
+#address {
+    display: inline-block;
+}
+
+#small-pic {
+    display: inline-block;
+    margin-top: auto;
+}
+
+span {
+    color: red;
+}
+
+#left-side {
+    display: inline-block;
+    border: 2px solid black;
+}
