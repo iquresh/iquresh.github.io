@@ -6,16 +6,17 @@
 
     Good luck, and have fun!
 */
-div {
-    display: inline-grid;
+#content {
+    display: block;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-#license {
-    display: inline-grid;
-    border: 2px solid;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
+#left-side {
+    position: relative;
+    width: 65%;
+    padding: 200;
 }
 
 h1 {
@@ -23,7 +24,8 @@ h1 {
 }
 
 h4 {
-    display: inline-;
+    position: relative;
+    width: 65%;
     background-color: darkblue;
     text-align: center;
     color: white;
@@ -31,21 +33,51 @@ h4 {
 
 #id-and-expiration {
     display: inline-block;
-}
-#address {
-    display: inline-block;
+    border: 1px solid;
 }
 
+#address {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid;
+    padding-right: 100px;
+    font-weight: bold;
+}
+
+#data-fields {
+    display: inline-block;
+    border: 1px solid;
+}
+div #data-right {
+    display: inline-block;
+    border: 1px solid;
+}
+
+#data-left {
+    display: inline-block;
+    border: 1px solid;
+}
 #small-pic {
     display: inline-block;
-    margin-top: auto;
+    opacity: 50%;
 }
 
 span {
     color: red;
 }
-
-#left-side {
+#right-side {
     display: inline-block;
-    border: 2px solid black;
+    position: relative;
+    width: 35%;
+    top: px;
+    padding-left: 190px;
+}
+
+#donor-and-real-id {
+    text-align: center;
+    color: red;
+}
+
+#real-id {
+    display: inline-block;
 }
