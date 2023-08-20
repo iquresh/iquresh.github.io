@@ -7,9 +7,46 @@
     Good luck, and have fun!
 */
 .post-it {
-    background-color: yellow;
+    background-color: rgb(204, 233, 244);
     display: inline-block;
-    width: 200px;
+    width: 250px;
     margin: 24px;
     padding: 24px;
+    text-align: center;
+}
+
+.post-it p {
+    color: rgb(17, 15, 118);
+    font-weight: bold;
+}
+
+li {
+    text-align: left;
+}
+.post-it img {
+    width: 150px;
+    border: 3px solid rgb(17, 15, 118);
+    padding: 5px;
+    border-radius: 20px;
+}
+.row-1 {
+    background-color: yellow;
+    display: inline-block;
+    width: 250px;
+    margin: 24px;
+    padding: 24px;
+}
+
+img {
+    display: inline-block;
+    width: 95px;
+    border: 1px solid;    
+}
+
+#img-2 {
+    border-radius: 20px;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: underline;
+
 }
