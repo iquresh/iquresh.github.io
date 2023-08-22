@@ -10,22 +10,23 @@
 
 /* Drill 3 - Write your code solution below */
     #d3-div-2 {
-        padding: 12px 48px;
+        padding: 30px 48px;
     }
 
 /* Drill 4 - Write your code solution below */
 .d4-div {
     padding: 24px;
 }
-
-
+#d4-div-1 {
+    padding-bottom: 24px;
+}
 /* Drill 5 - Write your code solution below */
-span {
+.d5-s {
+    display: inline-block;
     padding: 24px;
 }
 
-.d5-container {
-    padding: 24px;
+#d5-container-1 {
     text-align: center;
 }
 

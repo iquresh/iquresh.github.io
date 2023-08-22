@@ -6,3 +6,132 @@
 
     Good luck, and have fun!
 */
+.tetris-block-1 {
+    padding: 20px;
+    border-width: 12px;
+    border-style: outset;
+    display:inline-block;
+}
+
+.wine {
+    background-color: rgb(93, 19, 0);
+    border-color: rgb(135, 30, 3);
+    border-radius: 30px 4px 30px 4px;
+}
+
+.teal {
+    background-color: teal ;
+    border-color: rgb(2, 173, 173);
+}
+
+.tea {
+    background-color: #f3b3b3;
+    border-color: #f0a1a1;
+}
+
+.lime-green {
+    background-color: #f1faee;
+    border-color: #daf6cf;
+}
+
+.yellow {
+    background-color: #e63946;
+    border-color: #f74654;
+}
+
+.green {
+    background-color: #BBD686;
+    border-color: #d6f39c;
+}
+
+.tetris-block-2 {
+    padding: 20px;
+    border-width: 12px;
+    border-style: outset;
+    display:inline-block;
+}
+
+.hidden {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.long {
+    padding: 20px 52px;
+    border-color: ;
+}
+
+.blue {
+    background-color: #219ebc;
+    border-color: #35afcd;
+}
+
+.yellow-orange {
+    background-color: #e9c46a ;
+    border-color: #f2d280;
+}
+
+.light-orange {
+    background-color: #f4a261;
+    border-color: #f39140;
+}
+
+.dark-blue {
+    background-color: #023047;
+    border-color: #054a6c;
+}
+
+.dark-orange {
+    background-color: #e76f51;
+    border-color: #ee5630;
+}
+
+.sky-blue {
+    background-color: #8ecae6;
+    border-color: #81bcd8;
+}
+
+.tetris-block-3 {
+    padding: 20px;
+    border-width: 12px;
+    border-style: outset;
+    display:inline-block;
+}
+
+.lavender {
+    background-color: lavender ;
+    border-color: rgb(202, 202, 250);
+}
+
+.pink {
+    background-color: #f4acb7 ;
+    border-color: #ee99a6;
+    border-radius: 50%;
+}
+
+.dark-green {
+    background-color: #6b9080 ;
+    border-color: #5d8574;
+}
+
+.maroon {
+    background-color: #bc4749;
+    border-color: #cc5557;
+}
+
+.pale-yellow {
+    background-color: #fdce61;
+    border-color: #ffc53d;
+}
+
+.sea-green {
+    background-color: #06d6a0;
+    border-color: #1bf6bc;
+    border-radius: 50%;
+
+}
+
+.brown {
+    background-color: #bb3e03;
+    border-color: #db5010;
+}
