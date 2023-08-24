@@ -1,20 +1,20 @@
 /* Drill 1 - Write your code solution below */
-#p {
-    red;
+.red {
+    padding: 15px;
 }
-
+.orange {
+    padding: 15px;
+    color: limegreen;
+}
 
 /* Drill 2 - Write your code solution below */
-.purple {
-    color: red;
+.purple p {
+    border: 1px solid purple;
 }
-
 
 
 /* Drill 3 - Write your code solution below */
-span dashed{
-    color: magenta;
-}
+
 
 
 /* Drill 4 - Write your code solution below */
@@ -22,7 +22,5 @@ span dashed{
 
 
 /* Drill 5 - Write your code solution below */
-.dog-days img {
-    border-radius: 100%;
-}
+
 
