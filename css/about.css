@@ -3,11 +3,13 @@
     display: inline-block;
     width: 50%;
     position: absolute;
-    top: 20px left;
+    width: 33%;
 }
 
 .about-me-paragraph {
     font-size: 18px;
     display: inline-block;
     width: 50%;
+    position: absolute;
+    bottom: ;
 }
