@@ -1,9 +1,9 @@
 .about-me-heading {
     font-size: 20px;
     display: inline-block;
-    width: 50%;
     position: absolute;
-    width: 33%;
+    top: auto;
+    padding-left: 20px;
 }
 
 .about-me-paragraph {
@@ -11,5 +11,7 @@
     display: inline-block;
     width: 50%;
     position: absolute;
-    bottom: ;
+    top: 150px;
+    padding-left: 20px;
+
 }
