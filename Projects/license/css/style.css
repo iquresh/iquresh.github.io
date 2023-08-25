@@ -16,10 +16,13 @@
 .state-name {
     border: 2px solid red;
     display: block;
+    color: darkblue;
 }
 
 #state-id {
-    border: 2px solid red;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
     display: block;
     position: relative;
     width: 65%;
@@ -46,9 +49,9 @@
 #address {
     border: 2px solid pink;
     display: block;
-    
     position: relative;
     width: 65%;
+    font-weight: bold;
 }
 
 img {
@@ -58,24 +61,33 @@ img {
 #personal-info {
     border: 2px solid maroon;
     display: block;   
-    position: relative;
+    position: ab;
     width: 65%;
+}
+#personal-details {
+    display: inline-block;
 }
 
 .small-pic {
     width: 100px;
     display: inline-block;
 }
+
 .data-left {
     border: 2px solid;
     display: inline-block;
-    width: 25%;
+    width: 35%;
 }
+
 .data-right {
     border: 2px solid;
     display: inline-block;
-    width: 30%;
+    width: 40%;
 }
+span {
+    color: red
+}
+
 .signature {
     border: 2px solid;
     display: inline-block;
