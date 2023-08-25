@@ -13,9 +13,16 @@
     display: block;
 }
 
+#left-side {
+    border: 3px solid blue;
+    position: relative;
+    width: 65%;
+    display: block;
+}
+
 .state-name {
     border: 2px solid red;
-    display: block;
+    display: inline-block;
     color: darkblue;
 }
 
@@ -30,10 +37,7 @@
 
 #id-and-expiration {
     border: 2px solid yellow;
-    display: block;
-    
-    position: relative;
-    width: 65%;
+    display: inline-block;
 }
 
 .id {
@@ -54,43 +58,59 @@
     font-weight: bold;
 }
 
-img {
-    width: 100px;
-}
-
 #personal-info {
     border: 2px solid maroon;
-    display: block;   
-    position: ab;
+    display: inline-block;   
+    position: relative;
     width: 65%;
 }
-#personal-details {
+
+.small-pic img {
+    width: 60px;
     display: inline-block;
 }
 
-.small-pic {
-    width: 100px;
+#personal-details {
     display: inline-block;
+    position: relative;
+    left: 80px;
+    bottom: 70px;
 }
 
 .data-left {
     border: 2px solid;
+    font-size: 12px;
     display: inline-block;
-    width: 35%;
 }
 
 .data-right {
     border: 2px solid;
+    font-size: 12px;
     display: inline-block;
-    width: 40%;
+    position: relative;
 }
+
 span {
     color: red
 }
 
 .signature {
     border: 2px solid;
-    display: inline-block;
+    font-size: 15px;
+    display: block;
     text-align: center;
-    width: 55%;
+}
+
+#right-side {
+    border: 3px solid blue;
+    position: relative;
+    width: 34%;
+    display: inline-block;
+    left: 80px;
+    bottom: 5px;
+}
+
+.profile-pic {
+    display: inline-block;
+    width: 300px;
 }
