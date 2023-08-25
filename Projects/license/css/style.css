@@ -7,77 +7,78 @@
     Good luck, and have fun!
 */
 #content {
+    border: 3px solid blue;
+    position: absolute;
+    width: 100%;
     display: block;
-    border: 1px solid;
-    padding: 20px;
-    border-radius: 20px;
 }
 
-#left-side {
+.state-name {
+    border: 2px solid red;
+    display: block;
+}
+
+#state-id {
+    border: 2px solid red;
+    display: block;
     position: relative;
     width: 65%;
-    padding: 200;
-}
-
-h1 {
-    color: darkblue;
-}
-
-h4 {
-    position: relative;
-    width: 65%;
-    background-color: darkblue;
-    text-align: center;
-    color: white;
 }
 
 #id-and-expiration {
+    border: 2px solid yellow;
+    display: block;
+    
+    position: relative;
+    width: 65%;
+}
+
+.id {
+    border: 2px solid;
     display: inline-block;
-    border: 1px solid;
+}
+
+.expiration {
+    border: 2px solid;
+    display: inline-block;
 }
 
 #address {
-    display: inline-block;
-    text-align: left;
-    border: 1px solid;
-    padding-right: 100px;
-    font-weight: bold;
-}
-
-#data-fields {
-    display: inline-block;
-    border: 1px solid;
-}
-div #data-right {
-    display: inline-block;
-    border: 1px solid;
-}
-
-#data-left {
-    display: inline-block;
-    border: 1px solid;
-}
-#small-pic {
-    display: inline-block;
-    opacity: 50%;
-}
-
-span {
-    color: red;
-}
-#right-side {
-    display: inline-block;
+    border: 2px solid pink;
+    display: block;
+    
     position: relative;
-    width: 35%;
-    top: px;
-    padding-left: 190px;
+    width: 65%;
 }
 
-#donor-and-real-id {
-    text-align: center;
-    color: red;
+img {
+    width: 100px;
 }
 
-#real-id {
+#personal-info {
+    border: 2px solid maroon;
+    display: block;   
+    position: relative;
+    width: 65%;
+}
+
+.small-pic {
+    width: 100px;
     display: inline-block;
+}
+.data-left {
+    border: 2px solid;
+    display: inline-block;
+    width: 25%;
+}
+.data-right {
+    border: 2px solid;
+    display: inline-block;
+    width: 30%;
+}
+.signature {
+    border: 2px solid;
+    display: inline-block;
+    text-align: center;
+    width: 55%;
 }
