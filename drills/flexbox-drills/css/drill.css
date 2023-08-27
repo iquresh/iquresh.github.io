@@ -10,10 +10,8 @@
 }
 
 /* Drill 3 - Write your code solution below */
-.container {
+.box {
     display: flex;
-}
-#container-3 {
     flex-direction: column;
 }
 
