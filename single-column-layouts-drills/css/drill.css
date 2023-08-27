@@ -1,6 +1,6 @@
 /* Drill 1 - Write your code solution below */
 #column-d1 {
-    width: 50%;
+    width: 50%;    
 }
 
 /* Drill 2 - Write your code solution below */
@@ -9,27 +9,25 @@
     margin-left: auto;
 }
 
-
 /* Drill 3 - Write your code solution below */
 #column-d3 {
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 
 /* Drill 4 - Write your code solution below */
 #container-d4 {
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
+
 
 /* Drill 5 - Write your code solution below */
 .container-2 {
     width: 50%;
 }
-#container-d5-1 {
+#container-d5-d1{
     margin-left: auto;
     margin-right: auto;
 }
