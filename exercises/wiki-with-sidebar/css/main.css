@@ -15,12 +15,15 @@ body {
 }
 
 #sidebar {
-    border: 1px solid gray;
+    border: 5px solid orange;
     background-color: white;
     width: 250px;
     padding: 24px;
+    height: 400px;
     flex: 1;
     margin-right: 20px;
+    position: sticky;
+    top: 25px;
 }
 
 #sidebar h2 {
@@ -49,11 +52,11 @@ body {
 }
 
 #main-content {
-    background-color: azure;
+    border: 2px solid orange;
+    background-color: rgb(253, 198, 96);
     padding: 30px;
-    flex-direction: column;
     flex: 3;
+    order: 1;
+    margin-right: 16px;
 }
-caption {
-    text-
-}
+
