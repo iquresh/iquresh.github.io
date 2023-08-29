@@ -46,10 +46,10 @@
 /* Drill 5 - Write your code solution below */
 #container-d5 {
     display: grid;
-    grid-template-columns: 100px 500px px ;
+    grid-template-columns: 1fr 2fr;
     grid-template-areas: 
-    "d5-cell1 d5-cell1 d5-cell1"
-    "d5-cell3 d5-cell2 d5-cell2";
+    "d5-cell1 d5-cell1"
+    "d5-cell3 d5-cell2";
 }
 
 #d5-cell1 {
@@ -65,7 +65,7 @@
 /* Drill 6 - Write your code solution below */
 #container-d6 {
     display: grid;
-    grid-template-columns: 50 50;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:"d6-cell1 d6-cell2"
     "d6-cell3 d6-cell3";
 }
