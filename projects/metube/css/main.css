@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;600&family=Sofia&display=swap');
+
 * {
     box-sizing: border-box;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
-    background-color: #d9ed92;
+    background-color: #f0b52b;
 }
 
 #grid-layout {
@@ -24,11 +26,11 @@ body {
     text-decoration: none;
 }
 #header #me {
-    color: #1c5645;
+    color: #233f8b;
 }
 #header #tube {
-    color: #d9ed92;
-    background-color: #1c5645;
+    color: white;
+    background-color: #233f8b;
     padding: 4px;
     border-radius: 12px;
 }
@@ -42,31 +44,41 @@ body {
     padding: 12px 0px;
     margin: 0px;
     list-style-type: none;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #233f8b;
 }
 
 #sidebar ul a {
     text-decoration: none;
-    color: #1c5645;
+    color: #233f8b;
     display: block;
     padding: 12px;
 }
 
 #sidebar ul a:hover {
-    background-color: #2b7c65;
+    background-color: #233f8b;
     border-radius: 12px;
-    color: #d9ed92;
+    color: white;
     font-weight: bold;
+}
+
+#sidebar .sidebar-subscription {
+    display: flex;
+    flex-direction: row;
+    color: #233f8b;
+    align-items: center;
+    width: 80%;
+    justify-content: flex-start;
 }
 
 i {
     padding-right: 10px;
 }
+
 img {
     width: 50px;
     height: 50px;
     border-radius: 50% 0;
-    border: 2px solid #1c5645;
+    border: 2px solid #233f8b;
 }
 
 #main {
@@ -80,14 +92,16 @@ img {
     margin-right: 12px;
     margin-bottom: 24px;
 }
-
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16/9;
-    background-image: url(../images/kim-daniels-OrkEasJeY74-unsplash.jpeg);
+    background-image: url(../images/Food.jpeg);
     background-size: cover;
-    border-radius: 8px;
-    border: 3px solid #2b7c65;
+    border-radius: 100px 0;
+    border: 3px solid #d0b133;
+    box-shadow: 3px 3px #273867, -0.6em 0 .4em #273867;
+
 }
+
 
 .metube-item h4 {
     margin: 8px;
@@ -95,7 +109,7 @@ img {
 
 .metube-item h4 a {
     text-decoration: none;
-    color: #1c5645;
+    color: #233f8b;
     display: block;
 }
 .video-details {
@@ -110,21 +124,13 @@ img {
 }
 
 .metube-item:nth-of-type(2) .thumbnail-placeholder {
-    background-image: url(../images/eugene-golovesov-JHVEJ8aZpRk-unsplash.jpeg);
+    background-image: url(../images/color.jpeg);
 }
 
 .metube-item:nth-of-type(3) .thumbnail-placeholder {
-    background-image: url(../images/swapnil-dwivedi-Nl8Oa6ZuNcA-unsplash.jpeg);
+    background-image: url(../images/Background.jpeg);
 }
 
 .metube-item:nth-of-type(4) .thumbnail-placeholder {
-    background-image: url(../images/madhu-shesharam-EVZxXuOEk3w-unsplash.jpeg);
-}
-
-.metube-item:nth-of-type(5) .thumbnail-placeholder {
-    background-image: url(../images/rafael-hoyos-weht--mfakO7mDxM-unsplash.jpeg);
-}
-
-.metube-item:nth-of-type(6) .thumbnail-placeholder {
-    background-image: url(../images/spork-n-fork-aWBweuWlju4-unsplash.jpeg);
+    background-image: url(../images/Architecture.jpeg);
 }
