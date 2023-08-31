@@ -134,3 +134,9 @@ img {
 .metube-item:nth-of-type(4) .thumbnail-placeholder {
     background-image: url(../images/Architecture.jpeg);
 }
+.metube-item:nth-of-type(5) .thumbnail-placeholder {
+    background-image: url(../images/cake.jpeg);
+}
+.metube-item:nth-of-type(6) .thumbnail-placeholder {
+    background-image: url(../images/Black&white.jpeg);
+}
