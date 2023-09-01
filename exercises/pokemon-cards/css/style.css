@@ -18,8 +18,11 @@ body {
 }
 
 .card-container {
+    display: flex;
+    flex-direction: column;
     width: 90vw;
     max-width: 800px;
+    min-width: 350px;
     margin: 48px auto;
     display: flex;
     justify-content: center;
@@ -31,6 +34,8 @@ body {
     border: 2px solid yellow;
     border-radius: 5px;
     padding: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .card-style-3 img {
