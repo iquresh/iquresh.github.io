@@ -26,6 +26,7 @@ body {
     margin: 24px;
     width: 350px;
     background-color: rgb(226, 255, 249);
+    box-shadow: -4px 4px 12px rgb(111, 111, 111);
 }
 
 .card-style-1 img {
@@ -49,4 +50,8 @@ body {
     text-align: center;
     font-size: 20px;
     color: white;
+    transition: background-color .5s,
+}
+.card-style-1 a:hover {
+    background-color: rgb(29, 153, 29);
 }
