@@ -90,3 +90,9 @@ body {
 #pokemon-card-2 {
     background: radial-gradient(at top right, rgb(99, 230, 99), green);
 }
+#pokemon-card-3 {
+    background: radial-gradient(at top right, #e05600, orange);
+}
+#pokemon-card-4 {
+    background-color: aqua;
+}
