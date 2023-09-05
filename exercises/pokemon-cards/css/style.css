@@ -31,7 +31,7 @@ body {
 .card-style-3 {
     margin: 24px;
     width: 350px;
-    border: 2px solid yellow;
+    background: radial-gradient(at 25%, #fff700, #f2c523);
     border-radius: 5px;
     padding: 10px;
     align-items: center;
@@ -42,5 +42,38 @@ body {
     width: 100%;
     height:150px;
     object-fit: cover;
-    border:
+    border: 5px solid #bf980c
+}
+
+.card-style-3 .pokemon-header {
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-style-3 .health {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-style-3 .details {
+    background: radial-gradient(at 25%, #bf980c, #f2c523);
+}
+
+.card-style-3 .attack {
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-style-3 .bold {
+    font-weight: bold;
+}
+
+.card-style-3 .data {
+    border: 2px solid #bf980c;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 12px;
+
 }
