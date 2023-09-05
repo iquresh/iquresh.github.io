@@ -31,7 +31,6 @@ body {
 .card-style-3 {
     margin: 24px;
     width: 350px;
-    background: radial-gradient(at top left, #fff700, #f2c523);
     border: 15px solid #e9c238;
     border-radius: 5px;
     padding: 10px;
@@ -70,7 +69,10 @@ body {
     padding: 24px 0px;
     border-bottom: 2px solid;
 }
-
+.card-style-3 .attack .power {
+    font-weight: bold;
+    font-size: 24px;
+}
 .card-style-3 .bold {
     font-weight: bold;
 }
