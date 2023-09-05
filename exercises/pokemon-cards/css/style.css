@@ -68,7 +68,7 @@ body {
     display: inline-flex;
     align-items: center;
     padding: 24px 0px;
-    
+    border-bottom: 2px solid;
 }
 
 .card-style-3 .bold {
@@ -81,5 +81,12 @@ body {
     font-weight: bold;
     font-size: 12px;
     margin: 12px;
+}
 
+#pokemon-card-1 {
+    background: radial-gradient(at top right, rgb(99, 230, 99), green);
+}
+
+#pokemon-card-2 {
+    background: radial-gradient(at top right, rgb(99, 230, 99), green);
 }
