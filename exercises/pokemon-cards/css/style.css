@@ -31,7 +31,8 @@ body {
 .card-style-3 {
     margin: 24px;
     width: 350px;
-    background: radial-gradient(at 25%, #fff700, #f2c523);
+    background: radial-gradient(at top left, #fff700, #f2c523);
+    border: 15px solid #e9c238;
     border-radius: 5px;
     padding: 10px;
     align-items: center;
@@ -57,12 +58,17 @@ body {
 }
 
 .card-style-3 .details {
-    background: radial-gradient(at 25%, #bf980c, #f2c523);
+    background: radial-gradient(at center, #f7d558, #d7ab0c);
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .card-style-3 .attack {
     display: inline-flex;
     align-items: center;
+    padding: 24px 0px;
+    
 }
 
 .card-style-3 .bold {
