@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Montserrat:wght@500&family=Poppins:wght@400;600&family=Sofia&display=swap');å
+
 * {
     box-sizing: border-box;
 }
@@ -25,4 +27,36 @@ body {
 
 #navbar-1 #logo img {
     width: 150px;
+}
+
+#navbar-2 {
+    background-color: beige;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar-2 h2 {
+    font-family: 'EB Garamond', serif;
+}
+
+#navbar-2 {
+    display: flex;
+    align-items: center;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#navbar-2 .cta-button {
+    background-color: blue;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color:white;
+
 }
