@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+#nav-bar {
+    background-color: rgb(255, 196, 132);
+    display: flex;
+    align-items: center;
+}
+
+#nav-bar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#nav-bar a:hover {
+  background-color: rgb(251, 174, 91);
+}
+
+#nav-bar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+
+.dropdown-container .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: rgb(251, 174, 91);
+    width: 100%;z
+    min-width: 200px;
+}
+#nav-bar .dropdown-menu a:hover {
+    background:  rgb(234, 147, 54);
+}
+#hero {
+    background-image: url(../images/pet-care.jpeg);
+    height: 50vh;
+}
