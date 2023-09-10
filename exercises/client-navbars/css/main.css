@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Montserrat:wght@500&family=Poppins:wght@400;600&family=Sofia&display=swap');å
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Montserrat:wght@500&family=Poppins:wght@400;600&family=Sofia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Montserrat:wght@500&family=Poppins:wght@400;600&family=Sofia&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,40 +10,42 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
 #navbar-1 {
     display: flex;
     align-items: center;
+    background-color: #ffae01;
 }
 
 #navbar-1 a {
     text-decoration: none;
-    color: black;
+    color: maroon;
     padding: 24px;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
-#navbar-1 #logo {
+#navbar-1 #logo-3 {
     margin-right: auto;
 }
 
-#navbar-1 #logo img {
+#navbar-1 #logo-3 img {
     width: 150px;
 }
 
 #navbar-2 {
-    background-color: beige;
-    display: flex;
-    justify-content: flex-end;
-}
-
-#navbar-2 h2 {
-    font-family: 'EB Garamond', serif;
-}
-
-#navbar-2 {
+    background-color: #ffc2bb;
     display: flex;
     align-items: center;
+}
+
+#navbar-2 img {
+    width: 200px;
+}
+
+#navbar-2 #logo-2 {
+    margin-right: auto;
 }
 
 #navbar-2 a {
@@ -49,14 +53,82 @@ body {
     color: black;
     padding: 24px;
     font-size: 20px;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
-#navbar-2 .cta-button {
-    background-color: blue;
+
+#navbar-2 .cta-button-2 {
+    background-color: #CE251C;
     text-align: center;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
     color:white;
+    min-width: 250px;
+    font-weight: bold;
+}
 
+#navbar3-top {
+    background-color: #FF7D00;
+    padding: 10px 0px;
+}
+
+#navbar3-top a {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFECD1;
+    text-decoration: none;
+}
+
+#navbar3-top span {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 0px auto;
+    text-align: center;
+    color: #FFECD1;
+}
+
+#navbar3-middle {
+    background-color: #FFECD1;
+    display: flex;
+    align-items: center;
+}
+
+#navbar3-middle a {
+    text-decoration: none;
+    color: #78290F;
+    padding: 24px;
+    font-weight: bold;
+}
+
+#navbar3-middle img {
+    width: 300px;
+}
+
+#navbar3-middle #logo {
+    margin-right: auto;
+}
+
+#navbar3-middle .cta-button {
+    background-color: #78290F;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    min-width: 70px;
+    text-align: center;
+}
+
+#navbar3-bottom {
+    background-color: #FF7D00;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar3-bottom a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: #FFECD1;
+    padding: 24px;
 }
