@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Montserrat:wght@500&family=Poppins:wght@400;600&family=Sofia&family=Tilt+Neon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Montserrat:wght@500&family=Poppins:wght@400;600&family=Sofia&family=Tilt+Neon&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.seasons {
+    flex: 250px;
+    background-color: black;
+    margin: 24px;
+    padding: 0px 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.seasons a {
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 12px;
+    margin-bottom: 24px;
+    display: block;
+    font-size: 24px;
+}
+
+.seasons p {
+    color: white;
+    padding: 24px;
+    text-shadow: white 5px 0 10px;
+}
+
+.seasons h1 {
+    margin: 24px 0px;
+    font-size: 48px;
+}
+
+#card-1 h1 {
+    text-shadow: #ffbd39 5px 0 10px;
+    color: #F8A910;
+}
+
+#card-1 .card-content h1 {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 0.5ms,
+        opacity 0.5ms;
+}
+
+#card-1:hover .card-content h1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-1 .card-content p {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 1s,
+        opacity 1s;
+}
+
+#card-1:hover .card-content p {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-1 .card-content a {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 1.5s,
+        opacity 1.5s;
+}
+
+#card-1:hover .card-content a {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-1 a {
+    box-shadow: 0px 0px 15px #F8A910;
+    border: 3px solid #F8A910;
+    color: #F8A910;
+}
+
+#card-2 h1 {
+    text-shadow: #beede5 5px 0 10px;
+    color: #beede5;
+}
+
+#card-2 a {
+    box-shadow: 0px 0px 15px #beede5;
+    border: 3px solid #beede5;
+    color: #beede5;
+}
+
+#card-2 .card-content h1 {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 0.5ms,
+        opacity 0.5ms;
+}
+
+#card-2:hover .card-content h1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-2 .card-content p {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 1s,
+        opacity 1s;
+}
+
+#card-2:hover .card-content p {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-2 .card-content a {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 1.5s,
+        opacity 1.5s;
+}
+
+#card-2:hover .card-content a {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-3 h1 {
+    text-shadow: #f1aead 5px 0 10px;
+    color: #f1aead;
+}
+
+#card-3 a {
+    box-shadow: 0px 0px 15px #f1aead;
+    border: 3px solid #f1aead;
+    color: #f1aead;
+}
+#card-3 .card-content h1 {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 0.5ms,
+        opacity 0.5ms;
+}
+
+#card-3:hover .card-content h1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-3 .card-content p {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 1s,
+        opacity 1s;
+}
+
+#card-3:hover .card-content p {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-3 .card-content a {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 1.5s,
+        opacity 1.5s;
+}
+
+#card-3:hover .card-content a {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-4 h1 {
+    text-shadow: #9e2a2b 5px 0 10px;
+    color: #9e2a2b;
+}
+
+#card-4 a {
+    box-shadow: 0px 0px 15px #9e2a2b;
+    border: 3px solid #9e2a2b;
+    color: #9e2a2b;
+}
+
+#card-4 .card-content h1 {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 0.5ms,
+        opacity 0.5ms;
+}
+
+#card-4:hover .card-content h1 {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-4 .card-content p {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 1s,
+        opacity 1s;
+}
+
+#card-4:hover .card-content p {
+    visibility: visible;
+    opacity: 1;
+}
+
+#card-4 .card-content a {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 1.5s,
+        opacity 1.5s;
+}
+
+#card-4:hover .card-content a {
+    visibility: visible;
+    opacity: 1;
+}
