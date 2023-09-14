@@ -5,31 +5,38 @@
 body {
     font-family: sans-serif;
     margin: 0px;
+    background-image: url(../images/Paw\ background-01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 #nav-bar {
-    background-color: rgb(255, 196, 132);
+    background-color: #D4AD98;
     display: flex;
     align-items: center;
+    border-bottom: 5px solid black;
 }
 
 #nav-bar a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: black;
     padding: 24px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #nav-bar a:hover {
-  background-color: rgb(251, 174, 91);
+    background-color: #FCFCE4;
+}
+
+#nav-bar #logo img {
+    width: 300px;
 }
 
 #nav-bar #logo {
     margin-right: auto;
-    font-weight: bold;
-    font-size: 24px;
-    padding-top: 13px;
-    padding-bottom: 12px;
 }
 
 .dropdown-container {
@@ -40,26 +47,43 @@ body {
     position: absolute;
     opacity: 0;
     visibility: hidden;
+    margin-top: 0px;
     transition:
         opacity 0.25s,
         visibility 0.25s;
-    z-index: 10;
 }
 
-.dropdown-container .dropdown-menu {
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
 }
 
 .dropdown-menu a {
-    background-color: rgb(251, 174, 91);
-    width: 100%;z
+    background-color: #FCFCE4;
+    width: 100%;
     min-width: 200px;
 }
+
 #nav-bar .dropdown-menu a:hover {
-    background:  rgb(234, 147, 54);
+    background:  #e6e6c8;
 }
+
 #hero {
     background-image: url(../images/pet-care.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 48px;
 }
