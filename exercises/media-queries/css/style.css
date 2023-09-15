@@ -211,3 +211,20 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+@media screen (max-width 768) {
+    #nav {
+        display: flex;
+    }
+
+    #hero h1 {
+        font-size: 2.75rem;
+    }
+
+    #hero h3 {
+        font-size: 1.25rem;
+    }
+    #content-container .card-three, .card-two {
+        flex-direction: column;
+    }
+    
+}
