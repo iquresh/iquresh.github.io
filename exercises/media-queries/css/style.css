@@ -221,15 +221,10 @@ a {
     }
 
     #hero h3 {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .three-cards {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .three-cards h1 {
-        font-size: 1rem;
+        display: block;
     }
 }
