@@ -225,6 +225,6 @@ a {
     }
 
     .three-cards {
-        display: block;
+        flex-direction: column;
     }
 }
