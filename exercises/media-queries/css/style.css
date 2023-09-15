@@ -215,6 +215,13 @@ a {
     #nav {
         display: flex;
     }
+    #hero h1 {
+        font-size: 1.625rem;
+    }
+    #hero h3 {
+        font-size: 1rem;
+    }
+    
     .three-cards{
         flex-direction: column;
     }
