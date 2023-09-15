@@ -222,7 +222,10 @@ a {
         font-size: 1rem;
     }
     
-    .three-cards{
+    .three-cards {
+        flex-direction: column;
+    }
+    .two-cards {
         flex-direction: column;
     }
 
