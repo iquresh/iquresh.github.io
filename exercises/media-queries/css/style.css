@@ -211,7 +211,7 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
-@media screen (max-width 768) {
+@media screen and (max-width: 768px) {
     #nav {
         display: flex;
     }
@@ -223,8 +223,13 @@ a {
     #hero h3 {
         font-size: 1.25rem;
     }
-    #content-container .card-three, .card-two {
+
+    .three-cards {
+        display: flex;
         flex-direction: column;
     }
-    
+
+    .three-cards h1 {
+        font-size: 1rem;
+    }
 }
