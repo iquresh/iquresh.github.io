@@ -441,7 +441,7 @@ body {
 /* TODO: Write your media queries here */
 
 @media screen and (max-width: 1000px) and (min-width: 801px) {
-
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -497,19 +497,15 @@ body {
     #card-3 img {
         margin-left: 8px;
     }
-    #more-appearances-container {
-
-    }
+    
     #next-publication-container {
         margin-right: 8px;
     }
     .ad-container {
         width: 100%;
-        margin-right: 8px;
     }
     #more-appearances-container {
         width: 100%;
-        margin-right: 8px;
     }
     #main {
         text-align: center;
