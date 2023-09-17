@@ -441,7 +441,16 @@ body {
 /* TODO: Write your media queries here */
 
 @media screen and (max-width: 1000px) and (min-width: 801px) {
-    
+    #nav {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 0px 10%;
+        margin: 0px 24px;
+    }
+
+    #header h1 { 
+        font-size: 4rem;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -470,7 +479,6 @@ body {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        font-size: rem;
     }
 
     #social-section {
