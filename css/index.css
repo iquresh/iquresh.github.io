@@ -87,4 +87,16 @@ body {
 #navbar #logo img {
     width: 150px;
 }
+@media screen and (max-width:800px) {
+    #home-page {
+    display: flex;
+    flex-direction: column;
+    }
+    #navbar #logo img {
+        width: 50px;
+    }
 
+    #navbar a {
+        font-size: 0.65rem;
+    }
+}
