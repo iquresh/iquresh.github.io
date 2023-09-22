@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Lobster&family=Montserrat:wght@400;500&family=Poppins:wght@400;600&family=Sofia&family=Tilt+Neon&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#logo-navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#logo-navbar a {
+    text-decoration: none;
+    color: #2b6087;
+    font-weight: bold;
+    padding: 24px;
+}
+
+#logo-navbar #logo img {
+    width: 200px;
+}
+
+#logo-navbar #logo {
+    margin-right: auto;
+}
+
+i {
+    padding: 24px;
+}
+.content {
+    border: 10px solid blue;
+    max-width: 800px;
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+}
+#main-content {
+    background-image: url(../images/italian-food-01.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.side-by-side img {
+    width: 300px;
+}
+.side-by-side {
+    background-color:  rgb(148, 197, 148);
+ 
+}
+.side-by-side .image-container {
+    display: flex;
+    align-items: center;
+}
+/*.side-by-side {
+    background-color:  green;
+    display: flex;
+    align-items: flex-start;
+    margin: 48px 0px;
+}*/
+#navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+#navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2b6087;
+
+}
+#hero-image {
+    background-image: url(../images/hero-image.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 24px 0px;
+}
+
+#hero-image h1 {
+    font-size: 1.8vw;
+    color: white;
+    padding: 24px 0px 0px 24px;
+    text-shadow: black 1px 0 10px;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+}
+#hero-image a {
+    background-color: orange;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 1vw;
+    min-width: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+    #logo-navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    #logo-navbar #logo {
+        display: flex;
+        align-items: center;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+    }
+}
