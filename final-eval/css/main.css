@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:wght@800&family=Lobster&family=Montserrat:wght@400;500&family=Poppins:wght@400;600&family=Sofia&family=Tilt+Neon&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#main-content {
+    padding: 48px;
+    margin: 0 auto;
+}
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.side-by-side {
+    display: flex;
+
+}
+
+.side-by-side h1 {
+    text-align: center;
+}
+
+.side-by-side img {
+    padding-left: 36px;
+    width: 100%;
+}
+.main-header {
+    text-align: center;
+}
+#middle-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#join-us-heading {
+    font-size: 15px;
+}
+
+#last-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#food-heading {
+    font-size: 15px;
+}
+#RSVP {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.cta-button {
+    background-color: black;
+    padding: 12px;
+    border-radius: 12px;
+}
+.RSVP-2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.RSVP-1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
