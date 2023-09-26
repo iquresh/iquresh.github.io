@@ -53,7 +53,7 @@ body {
 }
 #RSVP {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
 }
 .cta-button {
