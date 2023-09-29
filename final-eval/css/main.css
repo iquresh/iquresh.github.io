@@ -78,4 +78,8 @@ body {
         max-width: 200px;
         min-width: 100px;
     }
+    #teams {
+        max-width: 200px;
+        min-width: 100px;
+    }
 }
