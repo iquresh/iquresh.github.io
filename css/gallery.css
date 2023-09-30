@@ -27,19 +27,13 @@ body {
     width: 100%;
 }
 
-#navbar .social-icons {
-    display: flex;
-    align-items: center;
+#pages {
+    margin: 0px auto;
 }
-#navbar .nav-icon {
-    display: flex;
-    align-items: center;
-    margin: 0px;
 
-}
 #navbar {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 #navbar a {
@@ -48,9 +42,7 @@ body {
     padding: 24px;
     font-weight: bold;
 }
-#navbar #logo {
-    margin-right: auto;
-}
+
 #navbar #logo img {
     width: 150px;
 }

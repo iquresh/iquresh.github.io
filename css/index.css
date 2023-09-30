@@ -9,31 +9,41 @@ body {
     margin: 0px;
 }
 
-#hero {
-    background-image: url(../images/logo.png);
-    height: 100vh;
-    background-size: cover;
-    background-position: bottom center bottom;
+#navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
 }
 
-#hero h2 {
-    font-size: 8vw;
-    margin-bottom: 40px;
+#pages {
+    margin: 0px auto;
 }
 
-#hero a {
-    font-size: 1.5vw;
-    background-color: #FFB400;
+#navbar a {
     text-decoration: none;
-    padding: 12px;
-    color: white;
+    color: black;
+    padding: 24px;
     font-weight: bold;
-    margin: 0px 0px 40vw 0px;
-    border-radius: 15px;
+}
+
+#navbar #logo img {
+    width: 150px;
+}
+
+
+
+.background-images img {
+    width: 100%;
+    opacity: 0.2;
+    margin: 0px auto;
+    padding: 0px 148px;
+}
+/*#hero {
+    background-image: url(../images/background-02.png);
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    margin: 0px auto;
+    opacity: 0.5;
 }
 
 #cards-section {
@@ -66,27 +76,10 @@ body {
     text-decoration: none;
     padding: 12px;
     border-radius: 20px;
-}
-#navbar {
-    background-color: #FFB400;
-    display: flex;
-    align-items: center;
-}
+}*/
 
-#navbar a {
-    text-decoration: none;
-    color: black;
-    padding: 24px;
-    font-weight: bold;
-}
 
-#navbar #logo {
-    margin-right: auto;
-}
 
-#navbar #logo img {
-    width: 150px;
-}
 @media screen and (max-width:800px) {
     #home-page {
     display: flex;

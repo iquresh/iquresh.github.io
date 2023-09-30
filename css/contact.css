@@ -10,7 +10,6 @@ body {
 }
 
 #navbar {
-    background-color: #FFB400;
     display: flex;
     align-items: center;
 }
@@ -22,8 +21,8 @@ body {
     font-weight: bold;
 }
 
-#navbar #logo {
-    margin-right: auto;
+#pages {
+    margin: 0px auto;
 }
 
 #navbar #logo img {
