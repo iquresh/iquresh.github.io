@@ -23,30 +23,85 @@ body {
     color: black;
     padding: 24px;
     font-weight: bold;
+    font-size: 24px;
 }
 
 #navbar #logo img {
     width: 150px;
 }
 
-
-
-.background-images img {
-    width: 100%;
-    opacity: 0.2;
-    margin: 0px auto;
-    padding: 0px 148px;
-}
-/*#hero {
+.hero-image {
     background-image: url(../images/background-02.png);
+    height: 350vh;
     background-size: cover;
-    background-position: top center;
-    display: flex;
-    margin: 0px auto;
-    opacity: 0.5;
+    background-position: center center;
+    position: relative;
 }
 
-#cards-section {
+.hero-image .hero-text {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+.horizontal-masonry-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonry-grid img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    transition:
+        background-color 0.5s,
+        transform 0.5s;
+}
+
+.horizontal-masonry-grid img:hover {
+    background-color: #F7B538;
+    transform: translateY(-8px);
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+/*#cards-section {
     padding: 48px;
 }
 
@@ -76,20 +131,4 @@ body {
     text-decoration: none;
     padding: 12px;
     border-radius: 20px;
-}*/
-
-
-
-@media screen and (max-width:800px) {
-    #home-page {
-    display: flex;
-    flex-direction: column;
-    }
-    #navbar #logo img {
-        width: 50px;
-    }
-
-    #navbar a {
-        font-size: 0.65rem;
-    }
-}
+}/*
