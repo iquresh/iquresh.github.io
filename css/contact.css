@@ -19,6 +19,7 @@ body {
     color: black;
     padding: 24px;
     font-weight: bold;
+    font-size: 24px;
 }
 
 #pages {
@@ -27,4 +28,107 @@ body {
 
 #navbar #logo img {
     width: 150px;
+}
+
+
+#contact-form {
+    width: 50%;
+    margin-left: auto;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+form {
+    background-color: #F7B538;
+    padding: 36px;
+    border-radius: 2px;
+}
+
+form div label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color:#3C6997;
+}
+
+form div h1 {
+    color: #3C6997;
+}
+
+input,
+select,
+textarea {
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+    The special [] selector syntax allows us to target 
+    different inputs based on their type attribute
+*/
+input[type=submit] {
+    width: auto;
+    background-color: #3C6997;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    min-width: 100px;
+}
+
+/*
+    This is an advanced selector that says that
+    we will target a form input if it is in an
+    invalid state, but only if it is not in focus
+    and there is not a placeholder shown inside
+    (in other words, only if the user has typed
+    something and left the field)
+*/
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: lightcoral;
+    border: 2px solid red;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+}
+
+#footer-navbar span {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: gray;
+    margin-top: 6px;
+}
+
+#footer-navbar i {
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
 }

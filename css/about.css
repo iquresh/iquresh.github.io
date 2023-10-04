@@ -35,6 +35,7 @@ body {
     color: black;
     padding: 24px;
     font-weight: bold;
+    font-size: 24px;
 }
 
 #pages {
@@ -43,5 +44,25 @@ body {
 
 #navbar #logo img {
     width: 150px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+}
+
+#footer-navbar span {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: gray;
+    margin-top: 6px;
+}
+#footer-navbar i {
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
 }
 

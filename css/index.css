@@ -33,6 +33,9 @@ body {
 .hero-image {
     height: 100vh;
     position: relative;
+    position: sticky;
+    top:10px;
+    z-index: -1;
 }
 
 .hero-image img {
@@ -41,10 +44,13 @@ body {
     z-index: -1;
     object-fit: contain;
 }
+
 .image {
     display: block;
     width: 100vw;
     height: 100vh;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
 .hero-image .hero-text {
@@ -58,6 +64,7 @@ body {
 
 #layout {
     border: 2px solid pink;
+    background-color: pink;
 }
 
 .horizontal-grid-heading {
@@ -83,11 +90,14 @@ body {
 .container {
     position: relative;
 }
+a.container {
+    display: block;   
+}
 
 .gallery-image {
-        display: block;
-        width: 100%;
-        height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
   
 .overlay {
@@ -111,11 +121,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
   
-  .container:hover .overlay {
+.container:hover .overlay {
     opacity: 1;
-  }
+}
 
 #footer {
     display: flex;
